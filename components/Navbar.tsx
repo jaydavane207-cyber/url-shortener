@@ -8,8 +8,11 @@ import { cn } from "@/lib/utils";
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/dashboard", label: "Dashboard" },
-  { href: "/#features", label: "Features" },
+  { href: "/dashboard/bio", label: "Bio Link" },
+  { href: "/dashboard/webhooks", label: "Webhooks" },
+  { href: "/dashboard/keys", label: "API Keys" },
 ];
+
 
 export default function Navbar() {
   const pathname = usePathname();
